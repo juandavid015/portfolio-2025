@@ -1,0 +1,132 @@
+{
+  "header": {
+    "title": "Juan David Garzón",
+    "subtitle": "Desarrollador Web",
+    "description": "Me gusta crear soluciones atractivas, estructuradas y bien comunicadas para todos los usuarios de la web."
+  },
+  "experience": {
+    "title": "Experiencia",
+    "items": {
+      "first": {
+        "title": "Suuper",
+        "position": "Desarrollador Full Stack",
+        "type": "Freelance",
+        "tecnologies": [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "SQL",
+          "Supabase",
+          "Tailwind",
+          "HTML",
+          "CSS",
+          "Figma"
+        ],
+        "time": {
+          "start": "Oct. 2024",
+          "end": "Aug. 2025"
+        }
+      },
+      "second": {
+        "title": "Grayola",
+        "position": "Desarrollador Full Stack",
+        "type": "Freelance",
+        "tecnologies": [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "SQL",
+          "Supabase",
+          "Tailwind",
+          "HTML",
+          "CSS"
+        ],
+        "time": {
+          "start": "Aug. 2024",
+          "end": "Oct. 2024"
+        }
+      },
+      "third": {
+        "title": "DASCalendar",
+        "position": "Desarrollador Frontend",
+        "type": "Práctica",
+        "tecnologies": ["React", "TypeScript", "HTML", "CSS"],
+        "time": {
+          "start": "Ene. 2024",
+          "end": "Jun. 2024"
+        }
+      }
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "items": {
+      "first": {
+        "title": "Softlink",
+        "subtitle": "Plataforma de gestión de proyectos",
+        "CTA": {
+          "text": "Visitar",
+          "link": "https://softlink.vercel.app/"
+        }
+      },
+      "second": {
+        "title": "Zerotwo",
+        "subtitle": "Página de anime",
+        "CTA": {
+          "text": "Visitar",
+          "link": "https://zerotwo-deploy.vercel.app/"
+        }
+      },
+      "third": {
+        "title": "U-buy",
+        "subtitle": "Diseño de e-commerce",
+        "CTA": {
+          "text": "Visitar",
+          "link": "https://u-buy.vercel.app/"
+        }
+      }
+    }
+  },
+  "about": {
+    "title": "Sobre mí",
+    "description": {
+      "paragraph1": "Soy desarrollador web y me gusta crear soluciones atractivas, estructuradas y bien comunicadas para todos los usuarios de la web.",
+      "paragraph2": "Con más de dos años de experiencia, me enfoco en crear soluciones con <strong>rendimiento</strong>, <strong>mantenibilidad</strong> y <strong>estética</strong> en mente, y actualmente estoy aprendiendo a integrar <strong>IA</strong> en las experiencias web que creo. También he <strong>liderado un equipo de frontend</strong> para alcanzar objetivos compartidos, fortaleciendo mis habilidades de <strong>comunicación</strong>, <strong>planificación</strong> y <strong>ejecución</strong> de manera efectiva.",
+      "other": {
+        "interest": {
+          "title": "Intereses",
+          "content": "Desarrollo web, UX/UI, Rendimiento web, IA"
+        },
+        "status": {
+          "title": "Estado",
+          "content": "Disponible para trabajo"
+        },
+        "location": {
+          "title": "Ubicación",
+          "content": "Colombia"
+        },
+        "email": {
+          "title": "Email",
+          "content": "juandavidgr1002@gmail.com",
+          "link": "mailto:juandavidgr1002@gmail.com"
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "Contactame",
+    "socials": {
+      "linkedin": {
+        "title": "LinkedIn",
+        "link": "https://www.linkedin.com/in/juan-dgr/"
+      },
+      "github": {
+        "title": "GitHub",
+        "link": "https://github.com/juandavid015"
+      }
+    }
+  },
+  "footer": {
+    "content": "Diseñado y construido por <a href='https://github.com/juandavid015' target='_blank'>@juandgr</a> usando Next.js"
+  }
+}
