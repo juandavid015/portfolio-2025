@@ -49,7 +49,7 @@ export const ProjectContent = ({
         >
           {subtitle}
         </Link>
-        <h3 className="uppercase line-clamp-1">{title}</h3>
+        <h3 className="uppercase line-clamp-1 font-medium">{title}</h3>
       </div>
       <Link
         href={cta.link}

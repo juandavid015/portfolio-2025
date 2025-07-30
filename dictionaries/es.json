@@ -9,7 +9,8 @@
     "items": {
       "first": {
         "title": "Suuper",
-        "position": "Desarrollador Full Stack",
+        "position": "Lider frontend y Desarrollador Full Stack",
+        "description": "Lideré el desarrollo frontend dentro de un equipo multidisciplinario, participando activamente en la planificación y creación de nuevas funcionalidades. Tomé la iniciativa para definir un enfoque centrado en el rendimiento y la escalabilidad de los componentes. Encabecé la implementación de estructuras de UI con React, Next.js y Tailwind, logrando reducir los tiempos promedio de carga a aproximadamente 2 segundos. También colaboré en la estructuración e implementación de funcionalidades backend utilizando Supabase y SQL.",
         "type": "Freelance",
         "tecnologies": [
           "Next.js",
@@ -24,12 +25,13 @@
         ],
         "time": {
           "start": "Oct. 2024",
-          "end": "Aug. 2025"
+          "end": "Ago. 2025"
         }
       },
       "second": {
         "title": "Grayola",
         "position": "Desarrollador Full Stack",
+        "description": "Colaboré con el equipo central y el líder de diseño en la planificación y construcción de un nuevo proyecto desde cero. Contribuí al desarrollo full-stack utilizando Next.js y Supabase, aplicando buenas prácticas en la estructura de la interfaz, la adaptabilidad y la accesibilidad.",
         "type": "Freelance",
         "tecnologies": [
           "Next.js",
@@ -42,13 +44,14 @@
           "CSS"
         ],
         "time": {
-          "start": "Aug. 2024",
+          "start": "Ago. 2024",
           "end": "Oct. 2024"
         }
       },
       "third": {
         "title": "DASCalendar",
         "position": "Desarrollador Frontend",
+        "description": "Contribuí al desarrollo de funcionalidades de calendario y gestión de horarios en una plataforma SaaS en expansión. Me encargué del mantenimiento y la refactorización de componentes de interfaz reutilizables con React y TypeScript, mejorando la legibilidad del código y asegurando una mayor coherencia en toda la aplicación.",
         "type": "Práctica",
         "tecnologies": ["React", "TypeScript", "HTML", "CSS"],
         "time": {

@@ -16,7 +16,7 @@ export const ExpandButton = ({ expanded, actionFn }: ExpandButtonProps) => {
       className={cn(
         "w-8 h-8 border border-gray-950 rounded-full",
         "flex items-center justify-center",
-        "absolute right-3 top-6"
+        "absolute right-6 top-6"
       )}
       onClick={actionFn}
     >
@@ -54,10 +54,10 @@ export const ExperienceCardHeader = ({
         alt={`${company} logo`}
         src={imageSrc}
       />
-      <div className="flex flex-col w-full">
-        <div className="flex justify-between gap-3">
-          <h3>{company}</h3>
-          <span className="font-light line-clamp-1 mr-9">
+      <div className="flex flex-col w-full mr-9">
+        <div className="flex gap-3 ">
+          <h3 className="font-medium ">{company}</h3>
+          <span className="font-light line-clamp-1">
             <span>{`${date.from} - `}</span>
             <span>{date.to}</span>
           </span>
