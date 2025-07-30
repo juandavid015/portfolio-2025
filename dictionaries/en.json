@@ -90,12 +90,13 @@
   "about": {
     "title": "About me",
     "description": {
-      "paragraph1": "I'm based in Colombia and started my road as a programmer since 2022 as an autodidact. From there, my <strong>curiosity</strong> and <strong>passion</strong> for this career have been growing each day. Currently i’ve been working with <strong>front end</strong> and <strong>back end</strong> technologies building somethings for the web",
+      "title": "Summary",
+      "paragraph1": "I live in Colombia and started my way as a programmer since 2022 as a <strong>self-taught</strong>. From there, my <strong>curiosity</strong> and passion for this race have been growing every day. Currently I’ve been working with front end and back end technologies building some stuff for the web",
       "paragraph2": "With over two years of experience, i focus on building with <strong>performance</strong>, <strong>maintainability</strong>, and <strong>aesthetics</strong> in mind, and I’m currently learning how to integrate <strong>AI</strong> into the web experiences i create. I’ve also <strong>led a frontend team</strong> to achieve shared goals, strengthening my leadership skills and sharpening my ability to <strong>communicate</strong>, <strong>plan</strong>, and <strong>execute</strong> effectively.",
       "other": {
         "interest": {
           "title": "Interests",
-          "content": "Front-end development, UX/UI, Web performance, AI"
+          "content": "Front-end development, UX/UI, Web performance and AI"
         },
         "status": {
           "title": "Status",
@@ -127,6 +128,10 @@
     }
   },
   "footer": {
-    "content": "Designed and built by <a href='https://github.com/juandavid015' target='_blank'>@juandgr</a> using Next.js"
+    "content": {
+      "part1": "Designed and built by",
+      "tag": "@juandgr",
+      "part2": "using Next.js"
+    }
   }
 }

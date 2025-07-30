@@ -1,0 +1,88 @@
+{
+  "experiences": [
+    {
+      "company": "Suuper",
+      "position": "Full Stack Developer",
+      "type": "Freelance",
+      "imageSrc": "/images/suuper_logo.jpg",
+      "description": "",
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "SQL",
+        "Supabase",
+        "Tailwind",
+        "HTML",
+        "CSS",
+        "Figma"
+      ],
+      "date": {
+        "from": "Oct. 2024",
+        "to": "Aug. 2025"
+      }
+    },
+    {
+      "company": "Grayola",
+      "position": "Full Stack Developer",
+      "imageSrc": "/images/grayola_logo.jpg",
+      "type": "Freelance",
+      "description": "",
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "SQL",
+        "Supabase",
+        "Tailwind",
+        "HTML",
+        "CSS"
+      ],
+      "date": {
+        "from": "Aug. 2024",
+        "to": "Oct. 2024"
+      }
+    },
+    {
+      "company": "DASCalendar",
+      "imageSrc": "/images/das_logo.jpg",
+      "position": "Frontend Developer",
+      "description": "",
+      "type": "Internship",
+      "technologies": ["React", "TypeScript", "HTML", "CSS"],
+      "date": {
+        "from": "Jan. 2024",
+        "to": "Jun. 2024"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "title": "Softlink",
+      "subtitle": "Project management platform",
+      "imageSrc": "/images/LOGO-SOFTLINK.webp",
+      "CTA": {
+        "text": "Visit",
+        "link": "https://softlink.vercel.app/"
+      }
+    },
+    {
+      "title": "Zerotwo",
+      "subtitle": "Anime page",
+      "imageSrc": "/images/LOGO-ZEROTWO.webp",
+      "CTA": {
+        "text": "Visit",
+        "link": "https://zerotwo-deploy.vercel.app/"
+      }
+    },
+    {
+      "title": "U-buy",
+      "subtitle": "E-commerce design",
+      "imageSrc": "/images/LOGO_UBUY.webp",
+      "CTA": {
+        "text": "Visit",
+        "link": "https://u-buy.vercel.app/"
+      }
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "header": {
     "title": "Juan David Garzón",
     "subtitle": "Desarrollador Web",
-    "description": "Me gusta crear soluciones atractivas, estructuradas y bien comunicadas para todos los usuarios de la web."
+    "description": "Me gusta crear soluciones atractivas, estructuradas y bien comunicadas para todo tipo de usuarios web."
   },
   "experience": {
     "title": "Experiencia",
@@ -90,12 +90,13 @@
   "about": {
     "title": "Sobre mí",
     "description": {
-      "paragraph1": "Soy desarrollador web y me gusta crear soluciones atractivas, estructuradas y bien comunicadas para todos los usuarios de la web.",
+      "title": "Resumen",
+      "paragraph1": "Vivo en Colombia y comencé mi camino como programador desde 2022 como <strong>autodidacta</strong>. A partir de ahí, mi <strong>curiosidad</strong> y pasión por esta carrera han ido creciendo cada día. Actualmente he estado trabajando con tecnologías front end y back end construyendo algunas cosas para la web",
       "paragraph2": "Con más de dos años de experiencia, me enfoco en crear soluciones con <strong>rendimiento</strong>, <strong>mantenibilidad</strong> y <strong>estética</strong> en mente, y actualmente estoy aprendiendo a integrar <strong>IA</strong> en las experiencias web que creo. También he <strong>liderado un equipo de frontend</strong> para alcanzar objetivos compartidos, fortaleciendo mis habilidades de <strong>comunicación</strong>, <strong>planificación</strong> y <strong>ejecución</strong> de manera efectiva.",
       "other": {
         "interest": {
           "title": "Intereses",
-          "content": "Desarrollo web, UX/UI, Rendimiento web, IA"
+          "content": "Desarrollo web, UX/UI, Rendimiento web e IA"
         },
         "status": {
           "title": "Estado",
@@ -127,6 +128,10 @@
     }
   },
   "footer": {
-    "content": "Diseñado y construido por <a href='https://github.com/juandavid015' target='_blank'>@juandgr</a> usando Next.js"
+    "content": {
+      "part1": "Diseñado y construido por",
+      "tag": "@juandgr",
+      "part2": "usando Next.js"
+    }
   }
 }
