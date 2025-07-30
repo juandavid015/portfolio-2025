@@ -23,13 +23,13 @@ interface AboutItemProps {
 export const AboutItem = ({ title, content, icon }: AboutItemProps) => {
   const Icon = icon;
   return (
-    <div className="flex py-1.5 px-3 border border-gray-950 w-full justify-between items-center gap-3">
-      <div className="flex flex-col">
+    <div className="flex flex py-1.5 px-3 border border-gray-950 w-full justify-between items-center gap-3 ">
+      <div className="flex flex-col min-w-0 break-words">
         <span className="uppercase font-medium">{title}</span>
         <span className="font-light">{content}</span>
       </div>
 
-      <div className="border border-gray-950 flex h-8 w-8 items-center justify-center rounded-full bg-indigo-700">
+      <div className="border border-gray-950 flex h-8 w-8 items-center justify-center rounded-full bg-indigo-700 shrink-0">
         <Icon className="w-5 h-5 text-white" />
       </div>
     </div>
@@ -55,8 +55,10 @@ export const AboutDescription = ({
   return (
     <div
       className={cn(
-        "max-w-full border border-gray-950 flex flex-col relative w-full",
-        "before:h-8 before:w-6 before:absolute before:-top-4 before:-right-0.5 before:bg-indigo-700"
+        "max-w-full border border-gray-950 ",
+        "before:h-8 before:w-6 before:absolute ",
+        "before:-top-4 before:-right-0.5 before:bg-indigo-700",
+        "flex flex-col relative w-full"
       )}
     >
       <div className=" w-full font-medium uppercase p-3 border-b border-gray-950">
@@ -112,7 +114,7 @@ const AboutSection = ({ className }: AboutSectionProps) => {
     <Section
       title={t("title")}
       className={className}
-      contentClassName="flex gap-6 w-full"
+      contentClassName="flex md:flex-nowrap flex-wrap gap-6 w-full"
       id="about"
     >
       <AboutDescription

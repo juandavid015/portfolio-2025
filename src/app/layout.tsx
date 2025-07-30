@@ -29,7 +29,7 @@ export default async function RootLayout({
   return (
     <html lang={locale} className="scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen font-sans px-16`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen font-sans md:px-16 px-4`}
       >
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>

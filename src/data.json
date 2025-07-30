@@ -2,10 +2,10 @@
   "experiences": [
     {
       "company": "Suuper",
-      "position": "Full Stack Developer",
+      "position": "Frontend Leader",
       "type": "Freelance",
       "imageSrc": "/images/suuper_logo.jpg",
-      "description": "",
+      "description": "Acted as Frontend Leader in a cross-functional team, contributing to the planning and development of new features. Took initiative to guide our approach with a focus on performance and scalable components. Led the implementation of UI structures using React, Next.js, and Tailwind, and helped reduce average page load times to ~2 seconds. Also participated proactively in structuring and implementing backend features using Supabase and SQL.",
       "technologies": [
         "Next.js",
         "React",
@@ -27,7 +27,7 @@
       "position": "Full Stack Developer",
       "imageSrc": "/images/grayola_logo.jpg",
       "type": "Freelance",
-      "description": "",
+      "description": "Collaborated with the core team and design lead to plan and build a new project from scratch. Contributed to full-stack development using Next.js and Supabase, while following good practices in UI structure, responsiveness, and accessibility.",
       "technologies": [
         "Next.js",
         "React",
@@ -47,7 +47,7 @@
       "company": "DASCalendar",
       "imageSrc": "/images/das_logo.jpg",
       "position": "Frontend Developer",
-      "description": "",
+      "description": "Contributed to the development of calendar and scheduling features in a growing SaaS platform. Maintained and refactored reusable UI components using React and TypeScript, improving code readability and consistency across the app.",
       "type": "Internship",
       "technologies": ["React", "TypeScript", "HTML", "CSS"],
       "date": {
