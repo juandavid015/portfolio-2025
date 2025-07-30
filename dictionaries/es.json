@@ -129,7 +129,7 @@
   },
   "footer": {
     "content": {
-      "part1": "Diseñado y construido por",
+      "part1": "Diseñado y desarrollado por",
       "tag": "@juandgr",
       "part2": "usando Next.js"
     }

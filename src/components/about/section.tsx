@@ -1,8 +1,18 @@
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Section from "../section";
 import { ReactNode } from "react";
-import { Eclipse, LucideIcon, Mail, MapPin, Waypoints } from "lucide-react";
+import {
+  Eclipse,
+  FileCode2,
+  Github,
+  Linkedin,
+  LucideIcon,
+  Mail,
+  MapPin,
+  Waypoints,
+} from "lucide-react";
 import { cn } from "@/lib/utils";
+import SocialLink from "../social-link";
 
 interface AboutItemProps {
   title: string;
@@ -27,7 +37,7 @@ export const AboutItem = ({ title, content, icon }: AboutItemProps) => {
 };
 
 interface AboutDescriptionProps {
-  title:string;
+  title: string;
   description: ReactNode[];
 }
 
@@ -35,10 +45,20 @@ export const AboutDescription = ({
   title,
   description,
 }: AboutDescriptionProps) => {
+  const locale = useLocale();
+
+  const isSpanishVersion = locale.includes("es");
+  const CVLink = isSpanishVersion
+    ? "https://drive.google.com/file/d/1eOX3SN1TgJiMnKHYS7bEOdeGlnEevmge/view?usp=sharing"
+    : "https://drive.google.com/file/d/1Jcmuq9wtp1Tg3Mg1idQA7Ke8nto_fw3Z/view?usp=sharing";
+
   return (
-    <div className={cn("max-w-full border border-gray-950 flex flex-col relative w-full",
-      "before:h-8 before:w-6 before:absolute before:-top-4 before:-right-0.5 before:bg-indigo-700"
-    )}>
+    <div
+      className={cn(
+        "max-w-full border border-gray-950 flex flex-col relative w-full",
+        "before:h-8 before:w-6 before:absolute before:-top-4 before:-right-0.5 before:bg-indigo-700"
+      )}
+    >
       <div className=" w-full font-medium uppercase p-3 border-b border-gray-950">
         {title}
       </div>
@@ -48,6 +68,25 @@ export const AboutDescription = ({
             {desc}
           </p>
         ))}
+      </div>
+      {/* Socials */}
+      <div className="flex gap-3 justify-end p-3">
+        <SocialLink
+          url="https://github.com/juandavid015"
+          icon={Github}
+          title="Github"
+        />
+        <SocialLink
+          url="https://www.linkedin.com/in/juan-dgr/"
+          icon={Linkedin}
+          title="LinkedIn"
+        />
+        <SocialLink
+          url={CVLink}
+          icon={FileCode2}
+          title="Download CV"
+          download
+        />
       </div>
     </div>
   );
@@ -76,7 +115,10 @@ const AboutSection = ({ className }: AboutSectionProps) => {
       contentClassName="flex gap-6 w-full"
       id="about"
     >
-      <AboutDescription description={description} title={t("description.title")} />
+      <AboutDescription
+        description={description}
+        title={t("description.title")}
+      />
       <div className="flex flex-col gap-6 w-full">
         <AboutItem
           title={t("description.other.status.title")}
