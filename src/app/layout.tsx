@@ -15,8 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "juandgr: Web Developer",
-  description: "I like to create attractive, structured and well communicated solutions for all kind of web users.",
+  title: "juandgr | Web Developer",
+  description:
+    "I like to create attractive, structured and well communicated solutions for all kind of web users.",
 };
 
 export default async function RootLayout({
@@ -26,9 +27,9 @@ export default async function RootLayout({
 }>) {
   const locale = await getLocale();
   return (
-    <html lang={locale}>
+    <html lang={locale} className="scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen font-sans px-16`}
       >
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
