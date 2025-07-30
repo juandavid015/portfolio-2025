@@ -74,6 +74,7 @@ const AboutSection = ({ className }: AboutSectionProps) => {
       title={t("title")}
       className={className}
       contentClassName="flex gap-6 w-full"
+      id="about"
     >
       <AboutDescription description={description} title={t("description.title")} />
       <div className="flex flex-col gap-6 w-full">

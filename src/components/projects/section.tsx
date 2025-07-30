@@ -20,7 +20,7 @@ const ProjectsSection = ({ className }: ProjectsSectionProps) => {
   const project = data.projects;
 
   return (
-    <Section title={t("title")} className={className}>
+    <Section title={t("title")} className={className} id="projects">
       <Carousel className="w-full">
         <CarouselContent>
           {project.map((project) => {
