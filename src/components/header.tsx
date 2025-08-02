@@ -11,8 +11,8 @@ const Header = () => {
 
   const isSpanishVersion = locale.includes("es");
   const CVLink = isSpanishVersion
-    ? "https://drive.google.com/file/d/1eOX3SN1TgJiMnKHYS7bEOdeGlnEevmge/view?usp=sharing"
-    : "https://drive.google.com/file/d/1Jcmuq9wtp1Tg3Mg1idQA7Ke8nto_fw3Z/view?usp=sharing";
+    ? "https://drive.google.com/file/d/1JF_0HCdLJd1LCNIowf_zh7wm2m6dOO4p/view?usp=sharing"
+    : "https://drive.google.com/file/d/1xrH47ed-YXJ4bp7jcC0v1Ra-a-Uq0tXZ/view?usp=sharing";
 
   return (
     <header className={cn("w-full uppercase", "border-custom")}>
